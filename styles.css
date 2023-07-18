@@ -4,3 +4,6 @@
 	font-size:bold;
 	font-weight:600;
 }
+div{
+	display:inline-block;
+}
