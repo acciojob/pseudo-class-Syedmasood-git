@@ -1,8 +1,12 @@
 /*  your css code here. If applicable */
-.before, .after{
-	color:red;
-	font-size:20px;
-}
 div{
-	display:inline-block;
+	display:inline;
 }
+div::before{
+                content: "Before Element";
+                color: red;
+            }
+            div::after{
+                content: "After Element";
+                color: red;
+            }
